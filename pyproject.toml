@@ -1,0 +1,16 @@
+[project]
+name = "sovereignwatch"
+version = "0.0.1"
+description = "Sehen, was Desktop-Programme nach Hause senden, und es abstellen"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "AGPL-3.0" }
+authors = [{ name = "Mark Wernsdorfer" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
